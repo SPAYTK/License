@@ -1,0 +1,2 @@
+# License
+Hardware and software
