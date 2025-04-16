@@ -1,0 +1,16 @@
+
+# Compiled object files
+*.o
+*.bin
+*.elf
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Backup files
+*~
+
+# IDE specific
+.vscode/
+.idea/
