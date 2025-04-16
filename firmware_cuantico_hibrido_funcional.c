@@ -2,7 +2,7 @@
 /*
  * Firmware completo para Chip Cuántico Híbrido
  * Versión extendida con todas las características técnicas del modelo funcional
- * Autor: [Tu Nombre Aquí]
+ * Autor: [Alberto Sampayo Iglesias]
  * Licencia: Apache 2.0
  */
 
