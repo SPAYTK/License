@@ -1,18 +1,41 @@
+# 💠 Quantum Superposition System Firmware
 
-# Firmware Cuántico Híbrido - Chip Autónomo
+**Autor:** Alberto Sampayo Iglesias  
+**Licencia:** Apache 2.0  
+**Versión inicial:** v1.0 - Abril 2025
 
-Este proyecto contiene el firmware base en C para controlar el flujo I/O completo
-de un chip cuántico híbrido ionizado con salida digital. Implementa inicialización,
-excitación, medición y exportación de datos.
+---
 
-## Características
-- Modelo de excitación por arctan(π) * arctan(|-x|)
-- Conversión binaria con simulación de colapso cuántico
-- Salida digital serial simulada
-- Código listo para ser portado a STM32, RISC-V, etc.
+⚛️ Sistema experimental de computación cuántica basada en:
 
-## Licencia
-MIT
+- Excitación iónica por metaconductores.
+- Lectura por 14 cátodos hemisféricos.
+- Evolución algorítmica en matrices complejas 36x36.
+- Consenso de salida como frecuencia compleja derivada de energía proyectada en la esfera de Bloch.
 
-## Autor
-Proyecto abierto para validación de arquitectura cuántica disruptiva.
+---
+
+## 💡 Salida digital
+
+La salida del sistema es una frecuencia compleja:
+
+\[
+f_{\text{out}} = \frac{(x \cdot t) \cdot B(\theta, \phi)}{\left( \frac{9}{8} \cdot \frac{\pi}{3} \right)} \cdot e^{i\phi}
+\]
+
+Codificada en:
+
+- `out_freq_real [15:0]` — parte real.
+- `out_freq_imag [15:0]` — parte imaginaria.
+
+---
+
+## 📂 Estructura del proyecto
+
+- `verilog/` → Módulos FPGA.
+- `docs/` → Especificación técnica.
+- `.gitignore` → Limpieza automática de binarios y temporales.
+
+---
+
+🚀 Listo para simulación, implementación y publicación como prior art.
