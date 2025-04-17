@@ -1,18 +1,24 @@
 
-# Firmware Cuántico Híbrido - Chip Autónomo
+# Chip Cuántico Híbrido — Firmware Embebido (Licencia Privativa)
 
-Este proyecto contiene el firmware base en C para controlar el flujo I/O completo
-de un chip cuántico híbrido ionizado con salida digital. Implementa inicialización,
-excitación, medición y exportación de datos.
+Este repositorio contiene el firmware completo y funcional para la ejecución del proceso computacional
+de un chip cuántico híbrido experimental. Incluye entrada digital, excitación iónica, procesamiento cuántico simulado,
+y exportación digital de resultados, diseñado para microcontroladores AVR como Arduino Uno.
 
-## Características
-- Modelo de excitación por arctan(π) * arctan(|-x|)
-- Conversión binaria con simulación de colapso cuántico
-- Salida digital serial simulada
-- Código listo para ser portado a STM32, RISC-V, etc.
+## ⚙️ Contenido
 
-## Licencia
-MIT
+- Firmware completo en `main.c`
+- Configuración para PlatformIO (`platformio.ini`)
+- UART serial para salida digital
+- Operativo bajo arquitectura AVR / Arduino Uno
 
-## Autor
-Proyecto abierto para validación de arquitectura cuántica disruptiva.
+## 🚫 Licencia
+
+Este software se proporciona **bajo licencia privativa**. Queda prohibida su reproducción, redistribución o modificación
+sin autorización expresa por parte del autor.
+
+## 📄 Propiedad
+
+Este código forma parte de un desarrollo tecnológico de arquitectura cuántica-ionizante registrada.
+
+© 2024 [Tu Nombre o Empresa]
