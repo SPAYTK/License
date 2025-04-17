@@ -5,4 +5,4 @@ Este software y firmware asociado han sido desarrollados como parte de una soluc
 Queda expresamente prohibido copiar, modificar, redistribuir o publicar cualquier parte de este código
 sin consentimiento escrito del titular de los derechos.
 
-Todos los derechos reservados © 2024 [Tu Nombre o Marca]
+Todos los derechos reservados © 2024 [Alberto Sampayo Iglesias]
