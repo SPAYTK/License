@@ -21,4 +21,4 @@ sin autorización expresa por parte del autor.
 
 Este código forma parte de un desarrollo tecnológico de arquitectura cuántica-ionizante registrada.
 
-© 2024 [Tu Nombre o Empresa]
+© 2024 [Alberto sampayo Iglesias]
