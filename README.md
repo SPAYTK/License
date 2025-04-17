@@ -1,15 +1,18 @@
-# Quantum Superposition System Firmware
 
-💡 Hybrid quantum-analog system for ion excitation, matrix algebra, and Bloch sphere projection.
+# Firmware Cuántico Híbrido - Chip Autónomo
 
-## Overview
-This firmware calculates the consensus output as a complex frequency
-derived from energy = (space * time * Bloch projection) / (9/8 * π/3).
+Este proyecto contiene el firmware base en C para controlar el flujo I/O completo
+de un chip cuántico híbrido ionizado con salida digital. Implementa inicialización,
+excitación, medición y exportación de datos.
 
-## Structure
-- `verilog/` : FPGA Modules (Verilog)
-- `docs/` : Spec Sheet & Theory
-- `LICENSE` : MIT License
+## Características
+- Modelo de excitación por arctan(π) * arctan(|-x|)
+- Conversión binaria con simulación de colapso cuántico
+- Salida digital serial simulada
+- Código listo para ser portado a STM32, RISC-V, etc.
 
-## License
-MIT License — Open for academic and experimental use.
+## Licencia
+MIT
+
+## Autor
+Proyecto abierto para validación de arquitectura cuántica disruptiva.
